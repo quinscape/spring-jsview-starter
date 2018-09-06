@@ -1,2 +1,4 @@
 # spring-jsview-starter
-Simple starter project for spring-jsview
+
+Simple starter project for spring-jsview.
+
