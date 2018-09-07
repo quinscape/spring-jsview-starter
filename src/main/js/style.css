@@ -1,0 +1,17 @@
+body
+{
+    background: #fff;
+    color: #444
+}
+
+#root
+{
+    background: #f0f0f0;
+    padding: 1ex 2em;
+}
+
+
+h1
+{
+    color: #000;
+}
