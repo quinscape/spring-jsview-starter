@@ -51,7 +51,7 @@ the webpack build or to change other things.
 ## Integrating other JavaScript Frameworks / Libraries
 
 React.js is the default view technology because of a special fondness I have for this view technology
-and historically connecting react to Java was the main impetus of creating this.
+and historically connecting react to Java was the main impetus for creating this.
 
 But on the other hand, there is nothing intrinsically connecting "spring-jsview" to react.
 
