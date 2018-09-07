@@ -55,7 +55,9 @@ and historically connecting react to Java was the main impetus for creating this
 
 But on the other hand, there is nothing intrinsically connecting "spring-jsview" to react.
 
-You can easily use any other JavaScript framework or none at all. These are the two key lines of "jsview-bootstrap". The included [template.html](https://github.com/quinscape/spring-jsview-starter/blob/master/src/main/webapp/WEB-INF/template.html) contains
+You can easily use any other JavaScript framework or none at all. 
+
+The included [base template](https://github.com/quinscape/spring-jsview-starter/blob/master/src/main/webapp/WEB-INF/template.html) contains
 a custom typed script block that receives the initial data as JSON blob. 
 
 ```html
@@ -64,16 +66,15 @@ a custom typed script block that receives the initial data as JSON blob.
     </script>
 ```
 
-To evaluate that data you need to do something like 
+These are the two key lines of "jsview-bootstrap" to parse that custom script block
+to JSON data. 
 
 ```js
     const elem = document.getElementById("root-data");
     const data = !!elem && JSON.parse(elem.innerHTML);
 ```
-
  First we look for the script element by id and then we parse the JSON body.
  From there you can feed the initial data to any view technology you like.
- 
 
 ## Maven Integration
 
